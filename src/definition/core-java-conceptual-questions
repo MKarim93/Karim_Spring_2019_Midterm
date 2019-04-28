@@ -1,38 +1,75 @@
 Please answer the below core-java Questions:
 
 What is programing language?
-A.
-
-
-
+A. A programing language is a computer language used to make give instructions to a machine or create
+programs.
 
 What jdk contains or composed of and define each components?
-A.
-
-
-
-
+A. A JDK means Java Development Kit, it has a JRE, which is a the Java Runtime Environment, Compiler and Debugger.
 
 What is IDE?
-A.
+A. IDE mean Integrated Development Environment.
+
 What are the IDEs available in the market to support java?
+A. Eclipse and Intellij
+
 Explain the entire java life cycle.
+A. Source code is written. The code goes through a compiler. It will get turned in to a class file which than goes
+through the JVM and into machine code, which is than outputted to the computer.
+
 what is class?
+A. A class is a container which holds the methods and variables.
+
 What is object?
+A. Instance of a class.
+
 What is the entry point of an application?
+A. The main method
+
 Why main is static?
+A. The main is static because, it is called by the JVM before any objects are made. It needs to be called without
+having to initialize any objects.
+
 Which class is the superclass of all classes?
+A. Java.lang
+
 What is difference between path and classpath variables?
+A. Path is an environment variable which is used by the operating system to find the executables.
+classpath is an environment variable which is used by the Java compiler to find the path.
+
 What is the difference between an Interface and Abstract class?
+A. Interface you can only declare methods. Abstract class you can have abstract methods or non-abstract methods.
+
 Can you make an Object from an Interface and Abstract class ? if not how do you use it ?
+A. No, you would implement or extends into a concrete class.
+
 what is Access Specifier?
+A. An access specifier tells you how much access you have to a method, class, or variable.
+
 What is OOP ? Define each feature of java OOP.
+A. OOP mean Object Oriented Programming.
+Encapsulation: data hiding
+Polymorphism: many forms of methods
+Abstraction: Implementation hiding
+Inheritance: Inheriting methods, variables from other classes.
+
 What is Java Package and which package is imported by default?
+A. Java package is where you hold classes that have similar functions. Java.lang
+
 What is API? Name list of API that you have used so far.
+A. API is application program interface. We used BufferedReader, FileReader, Scanner and String.
+
 Does java support multiple inheritance, explain why or why not?
+A. No, to avoid ambiguity.
+
 What is method overloading and when it happens?
+A. Method overloading happens when you have same method names but different parameters. Compile time.
+
 Explain exceptions in java and how to handle it.
+A. Exception is when a programs execution is halted. It is handled with a try-catch block.
+
 What is static keyword in java? How it has been used in variables and methods ?
+A.
 What is final and how it has been used variables and methods?
 What is final, finally and finalize?
 What is a constructor ?
