@@ -69,7 +69,13 @@ Explain exceptions in java and how to handle it.
 A. Exception is when a programs execution is halted. It is handled with a try-catch block.
 
 What is static keyword in java? How it has been used in variables and methods ?
-A.
+A. Static keyword that are used for share the same variable or method of a given class.
+       -Static variable:1)It's a variable that's associated with a class and not with the object of the class.
+        		         2)Static variables are initialized only once.
+       -Static Method: 1)A static method belongs to the class rather than object of a class.
+                       2) A static method can be invoked without the need for creating an instance of a class.
+                       3) Static method can access static data member and can change the value of it.
+                       
 What is final and how it has been used variables and methods?
 What is final, finally and finalize?
 What is a constructor ?

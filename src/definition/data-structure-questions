@@ -38,13 +38,37 @@ between two factors of it. Generally, the smaller the order of complexity of the
 faster it will run and the better it will scale as the input gets larger.
 
 what is the best case to search an element from an array?
+A. Binary search
+
 what is the worst case to search an element from an array?
+A. Hypothetical data set
+
 what is tree in data structure?
+A. Tree represents the nodes connected by edges.
+
 what is graph in data structure?
+A. Graph is set of items connected by edges. Each item is called a vertex or node.
+ A graph is a set of vertices and a binary relation between vertices, adjacency.
+
 what is the difference between the HashTable and HashMap?
+A. HashTable is synchronized  whereas hashMap is not synchronised.
+   HashTable does not allows null keys or values whereas HashMap allows null keys.
+
 What are the major data structures used in the following areas : RDBMS, Network data model and Hierarchical data model.
+A. RDBMS uses Array
+   Network data model uses Graphs and Hierarchical data model uses Trees.
+
 How HashMap works in java?
+A. HashMap works on the principal of hashing.
+   HashMap stores both key and value object, in bucket, as an object of Entry class which implements the nested interface Map.Entry.
+   HashMap provides put(key, value) for storing and get(key) method for retrieving Values from HashMap
+   equals() method is used to compare objects for equality
+
 What is ArrayIndexOutOfBoundsException in java? When it occurs?
+A. ArrayIndexOutOfBoundsException is a runtime Exception thrown only at runtime.
+   It occurs when Java program tries to access an invalid index, means an index which is not positive or greater
+   than the length of an array.
+
 What are the different ways of copying an array into another array?
 What is difference between an array and a linked list?
 What is DFS and BFS?
